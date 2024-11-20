@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  line-height: 2;
+  background-color: hsl(30, 54%, 90%);
+}
+.wrapper {
+  background-color: hsl(30, 54%, 90%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.bg-img {
+  width: 560px;
+  height: auto;
+  border-radius: 6px;
+}
+.biggest-heading {
+  margin: 5px 0;
+  color: hsl(24, 5%, 18%);
+}
+.first-para {
+  line-height: 2;
+  color: hsl(30, 10%, 34%);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.preparation-time-container {
+  background-color: hsl(330, 100%, 98%);
+  width: 560px;
+  height: auto;
+  padding: 20px;
+  padding-left: 25px;
+  border-radius: 8px;
+  font-family: "Outfit", sans-serif;
+}
+.preparation {
+  color: hsl(332, 51%, 32%);
+}
+.un-ordered {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: hsl(30, 10%, 34%);
+}
+.bold {
+  padding-left: 12px;
+  font-weight: 700;
+}
+.ingredients-container,
+.instructions-container,
+.nutrition-container {
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+}
+.second-head {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.horizontal-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ordered {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: hsl(30, 10%, 34%);
+}
+.nutrition-container {
+  color: hsl(30, 10%, 34%);
+}
+.nutri-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nutri {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+}
+.nutri-bold {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.attribution {
+  text-align: center;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: hsl(14, 45%, 36%);
+}
+a:hover {
+  color: white;
+}
